@@ -1,0 +1,21 @@
+{
+    "name": "tddbc/phpunit_skeleton",
+    "description": "skeleton for php users.",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "tddbc",
+            "email": "tddbc@googlegroups.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.x-dev"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
