@@ -16,6 +16,11 @@
         "phpunit/phpunit": "4.1.x-dev"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": {
+          "Tddbc": [
+            "src/",
+            "tests/"
+          ]
+        }
     }
 }

@@ -1,8 +1,7 @@
 <?php
+namespace Tddbc;
 
-namespace Sample;
-
-class Sample
+class Example
 {
     /**
      * Say
