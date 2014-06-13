@@ -13,21 +13,20 @@ TDDBC for PHP with PHPUnit
 
 ```sh
 curl -sS https://getcomposer.org/installer | php
-composer.phar install
+php composer.phar install
 ```
 
 `./vendor/bin/phpunit`を実行して
 
 ```sh
 $ ./vendor/bin/phpunit -c .
-
-PHPUnit 3.7.22 by Sebastian Bergmann.
+PHPUnit 4.1.x-y-zzzzz by Sebastian Bergmann.
 
 Configuration read from phpunit.xml.dist
 
 .
 
-Time: 0 seconds, Memory: 4.75Mb
+Time: 34 ms, Memory: 3.50Mb
 
 OK (1 test, 1 assertion)
 ```

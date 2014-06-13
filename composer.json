@@ -8,14 +8,19 @@
             "email": "tddbc@googlegroups.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">= 5.3.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.x-dev"
+        "phpunit/phpunit": "4.1.*"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": {
+          "Tddbc": [
+            "src/",
+            "tests/"
+          ]
+        }
     }
 }
