@@ -6,7 +6,7 @@ TDDBC for PHP with PHPUnit
 動作環境
 --------
 
-* PHP5.3.3以上
+* PHP5.6以上
 
 セットアップ
 ------------
@@ -19,14 +19,12 @@ php composer.phar install
 `./vendor/bin/phpunit`を実行して
 
 ```sh
-$ ./vendor/bin/phpunit -c .
-PHPUnit 4.1.x-y-zzzzz by Sebastian Bergmann.
+$  ./vendor/bin/phpunit 
+PHPUnit 5.2.x by Sebastian Bergmann and contributors.
 
-Configuration read from phpunit.xml.dist
+.                                                                   1 / 1 (100%)
 
-.
-
-Time: 34 ms, Memory: 3.50Mb
+Time: 223 ms, Memory: 4.00Mb
 
 OK (1 test, 1 assertion)
 ```
