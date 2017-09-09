@@ -1,9 +1,10 @@
 <?php
 namespace Tddbc;
 
+use PHPUnit\Framework\TestCase;
 use Tddbc\Example;
 
-class ExampleTest extends \PHPUnit_Framework_TestCase
+class ExampleTest extends TestCase
 {
     /**
      * @var Example
