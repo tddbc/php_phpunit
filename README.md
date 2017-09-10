@@ -19,7 +19,7 @@ php composer.phar install
 `./vendor/bin/phpunit`を実行して
 
 ```sh
-$ ./vendor/bin/phpunit -c .
+$ ./vendor/bin/phpunit
 PHPUnit 6.3.0 by Sebastian Bergmann and contributors.
 
 .                                        1 / 1 (100%)
