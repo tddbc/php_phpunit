@@ -9,12 +9,12 @@ class ExampleTest extends TestCase
     /**
      * @var Example
      */
-    private $sut;
+    protected $sut;
 
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    protected function setUp() : void
     {
         $this->sut = new Example();
     }
