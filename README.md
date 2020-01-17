@@ -6,7 +6,7 @@ TDDBC for PHP with PHPUnit
 動作環境
 --------
 
-* PHP7.0以上
+* PHP7.2以上
 
 セットアップ
 ------------
@@ -20,7 +20,7 @@ php composer.phar install
 
 ```sh
 $ ./vendor/bin/phpunit
-PHPUnit 6.3.0 by Sebastian Bergmann and contributors.
+PHPUnit 8.5.2 by Sebastian Bergmann and contributors.
 
 .                                        1 / 1 (100%)
 
