@@ -6,7 +6,8 @@ TDDBC for PHP with PHPUnit
 動作環境
 --------
 
-* PHP7.2以上
+* PHP7.3以上
+  * PHP7.2の場合は、https://github.com/tddbc/php_phpunit/tree/phpunit-8 を利用してください
 
 セットアップ
 ------------
@@ -20,11 +21,11 @@ php composer.phar install
 
 ```sh
 $ ./vendor/bin/phpunit
-PHPUnit 8.5.2 by Sebastian Bergmann and contributors.
+PHPUnit 9.2.5 by Sebastian Bergmann and contributors.
 
-.                                        1 / 1 (100%)
+.                                                                   1 / 1 (100%)
 
-Time: 43 ms, Memory: 4.00MB
+Time: 00:00.683, Memory: 4.00 MB
 
 OK (1 test, 1 assertion)
 $ 
