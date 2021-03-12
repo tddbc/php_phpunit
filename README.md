@@ -32,6 +32,15 @@ $
 
 のようにテストが正常終了すればOKです。
 
+testdox アノテーションについて
+----------------------------
+
+`make test`でのテスト実行時に TestDox 形式で結果が出力されるようになっています。
+
+クラスやメソッドの PHPDoc に`@testdox XXX`と記述することでテスト結果の出力を任意の文字列にすることができます。
+
+記述方法については [ExampleTest.php](https://github.com/tddbc/php_phpunit/blob/master/tests/Tddbc/ExampleTest.php) を参照してください。
+
 ライセンス
 ---------
 
