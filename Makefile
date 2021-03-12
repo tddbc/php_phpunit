@@ -15,7 +15,7 @@ composer-outdated:
 	$(CMD) -v $(VOLUME) -w $(WORKDIR) composer:1 outdated
 
 test:
-	$(CMD) -v $(VOLUME) -w $(WORKDIR) $(PHP) ./vendor/bin/phpunit
+	$(CMD) -v $(VOLUME) -w $(WORKDIR) $(PHP) ./vendor/bin/phpunit --testdox
 
 clean:
 	rm -rf ./vendor
