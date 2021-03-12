@@ -4,6 +4,9 @@ namespace Tddbc;
 use PHPUnit\Framework\TestCase;
 use Tddbc\Example;
 
+/**
+ * @testdox サンプルテスト
+ */
 class ExampleTest extends TestCase
 {
     /**
@@ -21,6 +24,7 @@ class ExampleTest extends TestCase
 
     /**
      * @test
+     * @testdox 文字列 'TDDBC' を渡すと文字列 'hello TDDBC' を返す
      */
     public function say()
     {
