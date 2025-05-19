@@ -14,19 +14,15 @@ class ExampleTest extends TestCase
      */
     protected $sut;
 
-    /**
-     * {@inheritdoc}
-     */
     protected function setUp() : void
     {
         $this->sut = new Example();
     }
 
     /**
-     * @test
      * @testdox 文字列 'TDDBC' を渡すと文字列 'hello TDDBC' を返す
      */
-    public function say()
+    public function testSay()
     {
         $this->assertEquals('hello TDDBC', $this->sut->say('TDDBC'));
     }
